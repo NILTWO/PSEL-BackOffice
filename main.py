@@ -9,6 +9,7 @@ def main():
     url = 'https://storage.googleapis.com/raccoon-humane/psel.json'
 
     # Criaremos blocos para realizar a requisição e executar as funções  
+    # Talvez colocar um if para o status_code == 200 também fosse uma boa opção. 
     try:
         # Essas 3 linhas seguintes foram utilizadas no exemplo do case
         request = requests.get(url=url)
